@@ -1,0 +1,18 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+body .main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body .main p {
+  padding: 12px;
+}
