@@ -3,16 +3,71 @@
 *:before {
   box-sizing: border-box;
 }
-body {
+body, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 }
-body .main {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
+
+.container{
+	margin: 0 auto;
+	max-width: 1200px;
 }
-body .main p {
-  padding: 12px;
+
+.main-nav{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
 }
+.main-nav ul{
+	flex-grow: 1;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.main-nav ul a{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #9daeb6;
+}
+
+.caller {
+	color: #36aeea;
+	border: 3px solid #36aeea;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 50px;
+}
+
+
+
+
+#travel{
+	background-image: url(../images/travel-bg.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.travel-container{
+	min-height: 1080px;
+}
+.price1{
+	height: 382px;
+	background-image: url(../images/price1.jpg);
+	background-repeat: no-repeat;
+}
+
+
+footer img{
+	height: 39px;
+	width: 39px;
+}
+
+
+
+
+
+
+
+
